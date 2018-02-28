@@ -8,6 +8,7 @@ function init() {
 
     if (key === code[index]) {
       index++;
+      console.log(e.which, index)
 
       if (index === code.length) {
         alert("Nice!");
