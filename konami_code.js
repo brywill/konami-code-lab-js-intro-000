@@ -9,6 +9,7 @@ function init() {
 
     if (key === code[index]) {
       index++;
+      console.log(index);
 
       if (index === code.length) {
         alert("Nice!");
@@ -18,6 +19,5 @@ function init() {
       }
     }
   });
-  console.log(index);
 }
 init()
